@@ -1,0 +1,56 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+background:#f6f6f6;
+}
+
+/* HERO */
+
+.hero{
+background:url("/images/hero.jpg");
+background-size:cover;
+background-position:center;
+padding:140px 20px;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:bold;
+}
+
+.hero p{
+font-size:20px;
+max-width:600px;
+margin:auto;
+}
+
+/* CARDS */
+
+.card{
+border:none;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+height:220px;
+object-fit:cover;
+}
+
+/* REVIEWS */
+
+.reviews{
+background:#f0e4d7;
+padding:60px 0;
+margin-top:60px;
+}
+
+.review-box{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
